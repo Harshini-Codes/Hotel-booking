@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.ba{
+    font-style: oblique;
+}
+.navbarNav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background-color: aquamarine;
+
+}
+.navbarNav:hover{
+    cursor:pointer;
+    transition:1s;
+    background-color: aquamarine;
+    color:var(--white-color);
+border-color:var(--white-color);
+background:#dcc540;
+border-radius: 10px 10px 10px 10px;
+
+}
+.aaa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-style: oblique;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1920x700');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-weight: bold;
+    color: #df1619;
+}
+
+footer {
+    background-color: #cf1fa3;
+}
+
+footer p {
+    margin: 0;
+}
